@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+  width: 200px; /* Aap apnay hisaab se adjust kar saktay hain */
+  height: 200px; /* Isay bhi apni image k size k mutabiq set karain */
+  border-radius: 50%; /* Isay 50% rakhnay se image gol ho jati hai */
+  object-fit: cover;
+  
+  
+}
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+   
+}
+.hero h1{
+    text-align: center;
+    width: 70%;
+    font-size: 70px;
+    font-weight: 600;
+} 
+
+.hero img{
+    margin-top: 30px;
+}
+.hero h1 span{
+    background:linear-gradient(267deg, #DA7C25 0.36% , #B923E1 );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.hero-connect{
+    padding: 10px 30px;
+    border-radius: 50px;
+    background:linear-gradient(267deg, #DA7C25 0.36% , #B923E1 );
+    cursor: pointer;
+}
+.hero-resume{
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 1px solid #FFF;
+    cursor: pointer;
+    
+}
